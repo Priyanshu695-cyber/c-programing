@@ -1,0 +1,11 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    int x,y,adition;
+    printf("enter two numbers ");
+    scanf("%d%d",&x,&y);
+    adition=x+y ;
+    printf("adition is =%d",adition);
+getch();
+}
