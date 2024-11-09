@@ -1,0 +1,18 @@
+#include<conio.h>
+#include<stdio.h>
+
+void main()
+{
+
+    int i,j;
+    for(i=0;i<100;i++)
+    {
+        printf("jai shree ram\n");
+        for(j=0;j<5;j++)
+        {
+            printf("jai hanuman\n");
+        }
+
+    }
+    getch();
+}
