@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<stdio.h>
+
+void main()
+{
+    int a;
+    printf("enter the value a");
+    scanf("%d",&a);
+
+    if(a>0)
+    {
+         printf("a is positive");
+    }
+    else if(a<0)
+    {
+        printf("a is negitive");
+    }
+    else if(a==0)
+    {
+         printf("nighter positive nor negitive");
+    }
+getch();
+
+}
