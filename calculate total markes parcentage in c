@@ -1,0 +1,28 @@
+#include<conio.h>
+#include<stdio.h>
+
+void main()
+{
+    int i;
+    float a[5];
+    float s=0;
+    float per;
+    printf("enter marks 5 subjects ");
+    for(i=0;i<5;i++)
+    {
+        scanf("%f",&a[i]);
+
+    }
+    for(i=0;i<5;i++)
+    {
+        s=s+a[i];
+    }
+    printf("total marks is %f\n",s);
+    per=(s/500)*100;
+    printf("parcent is %f",per);
+    getch();
+
+
+
+    }
+
