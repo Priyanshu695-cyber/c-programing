@@ -1,0 +1,16 @@
+#include<conio.h>
+#include<stdio.h>
+
+add(int a,int b)
+{
+int c;
+c=a+b;
+printf("%d",c);
+}
+main()
+{
+int x=10,y=15;
+add(x,y);
+getch();
+
+}
