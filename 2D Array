@@ -1,0 +1,20 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    int a[3][4],i,j;
+    printf("enter 12 numbers ");
+for(i=0;i<3;i++)
+{
+
+for(j=0;j<4;j++)
+{
+    scanf("%d",&a[i][j]);
+
+}
+
+}
+
+    getch();
+
+}
