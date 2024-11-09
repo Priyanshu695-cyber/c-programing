@@ -1,0 +1,18 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+
+    int x,y,i,s=1;
+    printf("enter value cofficent");
+    scanf("%d",&x);
+    printf("enter the power");
+    scanf("%d",&y);
+    for (i=1;i<=y;i++)
+    {
+
+        s=s*x;
+    }
+    printf("total is %d",s);
+
+}
