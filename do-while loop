@@ -1,0 +1,17 @@
+#include<conio.h>
+#include<stdio.h>
+
+void main()
+{
+    int i=0;
+    do
+    {
+        printf("jai shree ram \n");
+        i++;
+    }
+    while(i<5);
+
+
+    getch();
+
+}
