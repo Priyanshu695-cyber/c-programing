@@ -1,0 +1,14 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    ram(6,7);
+}
+ram(int x,int y)
+{
+    int z;
+    z=x+y;
+
+    printf("%d",z);
+
+}
