@@ -1,0 +1,19 @@
+#include<conio.h>
+#include<stdio.h>
+void main ()
+{
+    int x,y;
+    printf("enter two number x and y   :");
+    scanf("%d%d",&x,&y);
+    if(x>y)
+    {
+        printf("x is graterthan\n");
+
+    }
+    else;
+    {
+        printf("y is lasthan");
+    }
+    getch();
+
+}
