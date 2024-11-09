@@ -1,0 +1,12 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+float a,r;
+printf("enter a redious:");
+scanf("%f",&r);
+a=3.14*r*r;
+printf("area is %f",a);
+getch();
+
+}
