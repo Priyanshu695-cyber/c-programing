@@ -1,0 +1,13 @@
+#include<conio.h>
+#include<stdio.h>
+ void main()
+{
+     const float pi=3.14;
+
+    int redius=12;
+
+    float area=pi*redius*redius;
+    printf("%f",area);
+    getch();
+
+}
