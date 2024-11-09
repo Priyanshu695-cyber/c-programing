@@ -1,0 +1,15 @@
+#include<conio.h>
+#include<stdio.h>
+
+add()
+{
+int a=10,b=15,c;
+c=a+b;
+printf("addition is %d",c);
+}
+main()
+{
+add();
+getch();
+
+}
