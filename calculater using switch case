@@ -1,0 +1,47 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    int ch,x,y,z;
+    printf("press 1,addition \n");
+    printf("press 2,subtraction\n");
+    printf("press 3,multiplication\n");
+    printf("enter a number");
+    scanf("%d",&ch);
+switch(ch)
+    {
+
+     case 1:
+     {
+         printf("enter two number:");
+         scanf("%d %d",&x,&y);
+         z=x+y;
+         printf("adition is %d",z);
+break;
+     }
+     case 2:
+
+     {
+         printf("enter two number:");
+         scanf("%d %d",&x,&y);
+         z=x-y;
+         printf("substrction is %d",z);
+         break;
+            }
+     case 3:
+     {
+         printf("enter two number:");
+         scanf("%d %d",&x,&y);
+         z=x*y;
+         printf("multiplication is %d",z);
+         break;
+         }
+     default:
+        {
+            printf("wrong answer");
+
+        }
+    }
+
+    getch();
+}
